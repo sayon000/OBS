@@ -1,29 +1,29 @@
 @keyframes pain{
-	0%  {transform:skewY(0deg) rotate(0deg) translate(0px, -200px) ;color:ORANGE;}
-	5%  {transform:skewY(10deg) rotate(72deg) translate(90px, -100px) ;color:white;}
-	10%  {transform: skewY(20deg) rotate(144deg) translate(180px, 0px) ;color:orange;}
-	15%  {transform: skewY(30deg) rotate(216deg) translate(270px, 100px) ;color:white;}
-	20%  {transform: skewY(40deg) rotate(288deg) translate(360px, 200px) ;color:orange;}
+	0%  {transform:skewY(0deg)  translate(0px, -200px) rotate(10deg) ;color:ORANGE; font-family:"Baskerville";-webkit-text-stroke-width: 2px; -webkit-text-stroke-color: red; }
+	5%  {transform:skewY(10deg)  translate(90px, -100px) rotate(-30deg);color:white; font-family:"Calibri";-webkit-text-stroke-width: 2px; -webkit-text-stroke-color: orange;}
+	10%  {transform: skewY(20deg)  translate(180px, 0px) rotate(40deg);color:orange; font-family:"Cursive";-webkit-text-stroke-width: 2px; -webkit-text-stroke-color: yellow;}
+	15%  {transform: skewY(30deg)  translate(270px, 100px) rotate(-40deg);color:white; font-family:"Comic Sans MS";-webkit-text-stroke-width: 2px; -webkit-text-stroke-color: green;}
+	20%  {transform: skewY(40deg)  translate(360px, 200px) rotate(20deg);color:orange; font-family:"Algerian";-webkit-text-stroke-width: 2px; -webkit-text-stroke-color: blue;}
 	 
-	25%  {transform: skewY(50deg) rotate(0deg) translate(450px, 200px) ;color:white;}
-	30%  {transform:  skewY(40deg) rotate(72deg) translate(240px, 100px) ;color:orange;}
-	35%  {transform:  skewY(30deg) rotate(144deg) translate(180px, 0px) ;color:white;}
-	40%  {transform:  skewY(20deg) rotate(216deg) translate(60px, -100px) ;color:orange;}
-	45%  {transform:  skewY(10deg) rotate(288deg) translate(0px, -200px) ;color:white;}
+	25%  {transform: skewY(50deg)  translate(450px, 200px) rotate(50deg);color:white; font-family:"Bold Linings";-webkit-text-stroke-width: 2px; -webkit-text-stroke-color: indigo;}
+	30%  {transform:  skewY(40deg)  translate(240px, 100px) rotate(-10deg);color:orange; font-family:"DejaVu Math TeX Gyre";-webkit-text-stroke-width: 2px; -webkit-text-stroke-color: purple;}
+	35%  {transform:  skewY(30deg)  translate(180px, 0px) rotate(30deg);color:white; font-family:"Stencil";-webkit-text-stroke-width: 2px; -webkit-text-stroke-color: pink;}
+	40%  {transform:  skewY(20deg)  translate(60px, -100px) rotate(-30deg);color:orange; font-family:"Monotype Corsiva";-webkit-text-stroke-width: 2px; -webkit-text-stroke-color: red;}
+	45%  {transform:  skewY(10deg)  translate(0px, -200px) rotate(20deg);color:white; font-family:"Playbill";-webkit-text-stroke-width: 2px; -webkit-text-stroke-color: orange;}
 	
-	50%  {transform:  skewY(0deg) rotate(0deg) translate(0px, -200px) ;color:orange;}
-	55%  {transform:  skewY(-10deg) rotate(90deg) translate(-60px, -100px) ;color:white;}
-	60%  {transform:  skewY(-20deg) rotate(180deg) translate(-120px, 0px) ;color:orange;}
-	65%  {transform:  skewY(-30deg) rotate(216deg) translate(-180px, 100px) ;color:white;}
-	70%  {transform:  skewY(-40deg) rotate(288deg) translate(-240px, 200px) ;color:orange;}
+	50%  {transform:  skewY(0deg)  translate(0px, -200px) rotate(-20deg);color:orange; font-family:"Onyx";-webkit-text-stroke-width: 2px; -webkit-text-stroke-color: yellow;}
+	55%  {transform:  skewY(-10deg)  translate(-60px, -100px) rotate(30deg);color:white; font-family:"Vladimir Script";-webkit-text-stroke-width: 2px; -webkit-text-stroke-color: green;}
+	60%  {transform:  skewY(-20deg)  translate(-120px, 0px) rotate(-60deg);color:orange; font-family:"Castellar";-webkit-text-stroke-width: 2px; -webkit-text-stroke-color: blue;}
+	65%  {transform:  skewY(-30deg)  translate(-180px, 100px) rotate(20deg);color:white; font-family:"Crafter";-webkit-text-stroke-width: 2px; -webkit-text-stroke-color: purple;}
+	70%  {transform:  skewY(-40deg) translate(-240px, 200px) rotate(-30deg);color:orange; font-family:"Felix Titling";-webkit-text-stroke-width: 2px; -webkit-text-stroke-color: pink;}
 	
-	75%  {transform:  skewY(-50deg) rotate(0deg) translate(-300px, 200px) rotateY(0deg);color:white;}
-	80%  {transform:  skewY(-40deg) rotate(90deg) translate(-240px, 100px) rotateY(0deg);color:orange;}
-	85%  {transform:  skewY(-30deg) rotate(180deg) translate(-180px, 0px) rotateY(0deg);color:white;}
-	90%  {transform:  skewY(-20deg) rotate(216deg) translate(-60px, -100px) rotateY(0deg);color:orange;}
-	95%  {transform:  skewY(-10deg) rotate(288deg) translate(0px, -200px) rotateY(0deg);color:white;}
+	75%  {transform:  skewY(-50deg) translate(-300px, 200px) rotate(70deg);color:white; font-family:"Wingdings";-webkit-text-stroke-width: 2px; -webkit-text-stroke-color: red;}
+	80%  {transform:  skewY(-40deg) translate(-240px, 100px) rotate(-20deg);color:orange; font-family:"Goudy Stout";-webkit-text-stroke-width: 2px; -webkit-text-stroke-color: orange;}
+	85%  {transform:  skewY(-30deg) translate(-180px, 0px) rotate(20deg);color:white; font-family:"Snap ITC";-webkit-text-stroke-width: 2px; -webkit-text-stroke-color: yellow;}
+	90%  {transform:  skewY(-20deg) translate(-60px, -100px) rotate(-30deg);color:orange; font-family:"Showcard Gothic";-webkit-text-stroke-width: 2px; -webkit-text-stroke-color: green;}
+	95%  {transform:  skewY(-10deg) translate(0px, -200px) rotate(10deg));color:white; font-family:"Jokerman";-webkit-text-stroke-width: 2px; -webkit-text-stroke-color: blue;}
 	
-	100% {transform:skewY(0deg) rotate(0deg) translate(0px, -200px) rotateY(0deg);color:ORANGE;}
+	100% {transform:skewY(0deg) rotate(0deg) translate(0px, -200px) rotate(10deg);color:ORANGE; font-family:"Baskerville";-webkit-text-stroke-width: 2px; -webkit-text-stroke-color: red;}
 }
 
 .painPeko{
