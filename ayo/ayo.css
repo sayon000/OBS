@@ -1,70 +1,71 @@
 @keyframes a1move{
 	 0% { transform:translate(-600px, 0px) scale(1,1);color:red; }
 	10% { transform:translate(-800px, 100px) scale(2,2) rotate(90deg);color:orange; }
-	20% { transform:translate(-200px, 100px)scale(3,3) rotate(90deg);color:yellow; }
-	30% { transform:translate(-100px, 100px) scale(2,2)rotate(90deg);color:yellowgreen; }
-	40% { transform:translate(00px, 100px) scale(1,1); rotate(90deg)color:green; }
-	50% { transform:translate(-100px, 100px) scale(0.75,0.75); rotate(90deg)color:blue; }
-	60% { transform:translate(-200px, 100px)scale(0.5,0.5); rotate(90deg)color:indigo; }
-	70% { transform:translate(-300px, 100px) scale(0.25,0.25); }
-	80% { transform:translate(-400px, 100px)scale(0.5,0.5); }
-	90% { transform:translate(0px, 100px) scale(0.75,0.75); }
-	100% { transform:translate(-600px, 0px) scale(1,1); }
+	20% { transform:translate(200px, 600px)scale(3,3) rotate(-90deg);color:yellow; }
+	30% { transform:translate(-100px, 800px) scale(2,2)rotate(180deg);color:yellowgreen; }
+	40% { transform:translate(400px, -100px) scale(1,1); rotate(-72deg)color:green; }
+	50% { transform:translate(700px, 700px) scale(0.75,0.75); rotate(34deg)color:blue; }
+	60% { transform:translate(800px, 230px)scale(0.5,0.5); rotate(-242deg)color:indigo; }
+	70% { transform:translate(-300px, 100px) scale(0.25,0.25); rotate(200deg) }
+	80% { transform:translate(-560px, 900px) scale(0.5,1); rotate(-230deg) }
+	90% { transform:translate(-600px, 0px) scale(1,1); rotate(0deg) }
+	100% { transform:translate(-600px, 0px) scale(1,1); rotate(0deg) }
 }
 
+
 @keyframes y1move{
-	 0% { transform:translate(-500px, -240px) scale(1,1);color:red; }
-	10% { transform:translate(-200px, 100px) scale(2,2);color:orange; }
-	20% { transform:translate(-100px, 100px)scale(3,3);color:yellow; }
-	30% { transform:translate(0px, 100px) scale(2,2);color:yellowgreen; }
-	40% { transform:translate(100px, 100px) scale(1,1);color:green; }
-	50% { transform:translate(0px, 100px) scale(0.75,0.75);color:blue; }
-	60% { transform:translate(-100px, 100px)scale(0.5,0.5);color:indigo; }
-	70% { transform:translate(-200px, 100px) scale(0.25,0.25); }
-	80% { transform:translate(-300px, 100px)scale(0.5,0.5); }
-	90% { transform:translate(0px, 100px) scale(0.75,0.75); } 
-	100% { transform:translate(-500px, -240px) scale(1,1); }
+	 0% { transform:translate(-500px, -240px) scale(1,1) skewY(40deg);color:red; }
+	10% { transform:translate(-600px, 300px) scale(4,4) skewY(-20deg);color:orange; }
+	20% { transform:translate(-700px, 100px)scale(7,7) skewY(30deg);color:yellow; }
+	30% { transform:translate(600px, 200px) scale(0.5,0.5) skewY(-40deg);color:yellowgreen; }
+	40% { transform:translate(400px, 300px) scale(1,1) skewY(60deg);color:green; }
+	50% { transform:translate(500px, -100px) scale(3,3) skewY(-10deg);color:blue; }
+	60% { transform:translate(-150px, 130px)scale(0.5,0.5) skewY(40deg);color:indigo; }
+	70% { transform:translate(-700px, 500px) scale(0.25,0.25) skewY(-70deg); }
+	80% { transform:translate(-200px, -160px) scale(1,1) skewY(67deg); }
+	90% { transform:translate(-500px, -240px)  scale(1,1) skewY(0deg); } 
+	100% { transform:translate(-500px, -240px) scale(1,1) skewY(0deg); }
 }
 
 @keyframes o1move{
 	 0% { transform:translate(-400px, -475px) scale(1,1);color:red; }
-	10% { transform:translate(-200px, 100px) scale(2,2);color:orange; }
-	20% { transform:translate(-100px, 100px)scale(3,3);color:yellow; }
-	30% { transform:translate(00px, 100px) scale(2,2);color:yellowgreen; }
-	40% { transform:translate(100px, 100px) scale(1,1);color:green; }
-	50% { transform:translate(00px, 100px) scale(0.75,0.75);color:blue; }
-	60% { transform:translate(-100px, 100px)scale(0.5,0.5);color:indigo; }
-	70% { transform:translate(-200px, 100px) scale(0.25,0.25); }
-	80% { transform:translate(-300px, 100px)scale(0.5,0.5); }
-	90% { transform:translate(0px, 100px) scale(0.75,0.75); } 
+	10% { transform:translate(300px, 100px) scale(2,2);color:orange; -webkit-text-stroke-width: 2px; -webkit-text-stroke-color: blue;}
+	20% { transform:translate(800px,0px)scale(3,3);color:yellow; -webkit-text-stroke-width: 2px; -webkit-text-stroke-color: purple; }
+	30% { transform:translate(-800px, 400px) scale(2,2);color:yellowgreen; -webkit-text-stroke-width: 2px; -webkit-text-stroke-color: pink; }
+	40% { transform:translate(700px, -800px) scale(6,6);color:green; -webkit-text-stroke-width: 2px; -webkit-text-stroke-color: red;}
+	50% { transform:translate(500px, -100px) scale(0.75,0.75);color:blue; -webkit-text-stroke-width: 2px; -webkit-text-stroke-color: orange;}
+	60% { transform:translate(-800px, -600px)scale(0.5,0.5);color:indigo;-webkit-text-stroke-width: 2px; -webkit-text-stroke-color: white; }
+	70% { transform:translate(400px, -200px) scale(0.25,0.25); color:purple; -webkit-text-stroke-width: 2px; -webkit-text-stroke-color: yellow;}
+	80% { transform:translate(-200px, 100px)scale(0.5,0.5); -webkit-text-stroke-width: 2px; -webkit-text-stroke-color: gray;}
+	90% { transform:translate(-400px, -475px) scale(1,1); } 
 	100% { transform:translate(-400px, -475px) scale(1,1); }
 }
 
 @keyframes q1move{
-	 0% { transform:translate(-300px, -710px) scale(1,1);color:red; }
-	10% { transform:translate(200px, -600px) scale(2,2);color:orange; }
-	20% { transform:translate(300px, -600px)scale(3,3);color:yellow; }
-	30% { transform:translate(400px, -600px) scale(2,2);color:yellowgreen; }
-	40% { transform:translate(500px, -600px) scale(1,1);color:green; }
-	50% { transform:translate(400px, -600px) scale(0.75,0.75);color:blue; }
-	60% { transform:translate(300px, -600px)scale(0.5,0.5);color:indigo; }
-	70% { transform:translate(200px, -600px) scale(0.25,0.25); }
-	80% { transform:translate(100px, -600px)scale(0.5,0.5); }
-	90% { transform:translate(0px, 100px) scale(0.75,0.75); }
-	100% { transform:translate(-300px, -710px) scale(1,1); }
+	 0% { transform:translate(-300px, -710px) scale(1,1);color:red;}
+	10% { transform:translate(800px, -800px) scale(2,2);color:orange; font-family:"Goudy Stout";}
+	20% { transform:translate(-200px, 0px)scale(4,3);color:yellow;font-family:"Snap ITC"; }
+	30% { transform:translate(300px, 100px) scale(2,6);color:yellowgreen;font-family:"Jokerman"; }
+	40% { transform:translate(-500px, -300px) scale(2,1);color:green;font-family:"Playbill"; }
+	50% { transform:translate(400px, 300px) scale(4,2);color:blue; font-family:"Crafter";}
+	60% { transform:translate(-400px, -600px)scale(4,2);color:indigo;font-family:"Onyx"; }
+	70% { transform:translate(200px, -200px) scale(3,2);font-family:"Vladimir Script"; }
+	80% { transform:translate(700px, -600px)scale(11,2);font-family:"Monotype Corsiva"; }
+	90% { transform:translate(-300px, -710px) scale(1,1);}
+	100% { transform:translate(-300px, -710px) scale(1,1);}
 }
 
 @keyframes q2move{
-	 0% { transform:translate(-200px, -947px) scale(1,1);color:red; }
-	10% { transform:translate(200px, 100px) scale(2,2);color:orange; }
-	20% { transform:translate(300px, 100px)scale(3,3);color:yellow; }
-	30% { transform:translate(400px, 100px) scale(2,2);color:yellowgreen; }
-	40% { transform:translate(500px, 100px) scale(1,1);color:green; }
-	50% { transform:translate(400px, 100px) scale(0.75,0.75);color:blue; }
-	60% { transform:translate(300px, 100px)scale(0.5,0.5);color:indigo; }
-	70% { transform:translate(200px, 100px) scale(0.25,0.25); }
-	80% { transform:translate(100px, 100px)scale(0.5,0.5); }
-	90% { transform:translate(0px, 100px) scale(0.75,0.75); }
+	 0% { transform:translate(-200px, -947px) rotate(0deg) scale(1,1);color:red; }
+	10% { transform:translate(-200px, -700px) rotate(90deg) scale(2,2);color:orange; }
+	20% { transform:translate(300px, -500px) rotate(180deg) scale(11,11);color:yellow; }
+	30% { transform:translate(400px, -300px) rotate(270deg) scale(11,11);color:yellowgreen; }
+	40% { transform:translate(500px, -200px) rotate(0deg) scale(1,1);color:green; }
+	50% { transform:translate(400px, -100px) rotate(90deg) scale(0.75,0.75);color:blue; }
+	60% { transform:translate(-200px, -100px) rotate(180deg)scale(11,11);color:indigo; }
+	70% { transform:translate(-300px, -100px) rotate(270deg) scale(11,11); }
+	80% { transform:translate(-400px, -100px) scale(11,11); }
+	90% { transform:translate(-200px, -947px) scale(1,1); }
 	100% { transform:translate(-200px, -947px) scale(1,1); }
 }
 
@@ -78,7 +79,7 @@
 	60% { transform:translate(300px, 100px)scale(0.5,0.5);color:indigo; }
 	70% { transform:translate(200px, 100px) scale(0.25,0.25); }
 	80% { transform:translate(100px, 100px)scale(0.5,0.5); }
-	90% { transform:translate(0px, 100px) scale(0.75,0.75); }
+	90% { transform:translate(-100px, -1185px) scale(0.75,0.75); }
 	100% { transform:translate(-100px, -1185px) scale(1,1); }
 }
 
@@ -92,7 +93,7 @@
 	60% { transform:translate(300px, 100px)scale(0.5,0.5);color:indigo; }
 	70% { transform:translate(200px, 100px) scale(0.25,0.25); }
 	80% { transform:translate(100px, 100px)scale(0.5,0.5); }
-	90% { transform:translate(0px, 100px) scale(0.75,0.75); } 
+	90% { transform:translate(0px, -1422px) scale(0.75,0.75); } 
 	100% { transform:translate(0px, -1422px) scale(1,1); }
 }
 
@@ -106,7 +107,7 @@
 	60% { transform:translate(300px, 100px)scale(0.5,0.5);color:indigo; }
 	70% { transform:translate(200px, 100px) scale(0.25,0.25); }
 	80% { transform:translate(100px, 100px)scale(0.5,0.5); }
-	90% { transform:translate(0px, 100px) scale(0.75,0.75); }
+	90% { transform:translate(100px, -1657px) scale(0.75,0.75); }
 	100% { transform:translate(100px, -1657px) scale(1,1); }
 }
 
@@ -120,7 +121,7 @@
 	60% { transform:translate(300px, 100px)scale(0.5,0.5);color:indigo; }
 	70% { transform:translate(200px, 100px) scale(0.25,0.25); }
 	80% { transform:translate(100px, 100px)scale(0.5,0.5); }
-	90% { transform:translate(0px, 100px) scale(0.75,0.75); }
+	90% { transform:translate(200px, -1897px) scale(0.75,0.75); }
 	100% { transform:translate(200px, -1897px) scale(1,1); }
 }
 
@@ -134,7 +135,7 @@
 	60% { transform:translate(300px, 100px)scale(0.5,0.5);color:indigo; }
 	70% { transform:translate(200px, 100px) scale(0.25,0.25); }
 	80% { transform:translate(100px, 100px)scale(0.5,0.5); }
-	90% { transform:translate(0px, 100px) scale(0.75,0.75); }
+	90% { transform:translate(300px, -2137px) scale(0.75,0.75); }
 	100% { transform:translate(300px, -2137px) scale(1,1); }
 }
 
@@ -148,7 +149,7 @@
 	60% { transform:translate(300px, 100px)scale(0.5,0.5);color:indigo; }
 	70% { transform:translate(200px, 100px) scale(0.25,0.25); }
 	80% { transform:translate(100px, 100px)scale(0.5,0.5); }
-	90% { transform:translate(0px, 100px) scale(0.75,0.75); }
+	90% { transform:translate(400px, -2371px) scale(0.75,0.75); }
 	100% { transform:translate(400px, -2371px) scale(1,1); }
 }
 
@@ -162,13 +163,13 @@
 	60% { transform:translate(300px, 100px)scale(0.5,0.5);color:indigo; }
 	70% { transform:translate(200px, 100px) scale(0.25,0.25); }
 	80% { transform:translate(100px, 100px)scale(0.5,0.5); }
-	90% { transform:translate(0px, 100px) scale(0.75,0.75); }
+	90% { transform:translate(500px, -2610px) scale(0.75,0.75); }
 	100% { transform:translate(500px, -2610px) scale(1,1); }
 }
 
 #a1{
 	animation-name: a1move;
-	animation-duration: 2s;
+	animation-duration: 3s;
 	animation-iteration-count: infinite;
 	animation-timing-function: linear;
 	
@@ -176,7 +177,7 @@
 
 #y1{
 	animation-name: y1move;
-	animation-duration: 2s;
+	animation-duration: 3s;
 	animation-iteration-count: infinite;
 	animation-timing-function: linear;
 	
@@ -184,7 +185,7 @@
 
 #o1{
 	animation-name: o1move;
-	animation-duration: 2s;
+	animation-duration: 3s;
 	animation-iteration-count: infinite;
 	animation-timing-function: linear;
 	
@@ -192,7 +193,7 @@
 
 #q1{
 	animation-name: q1move;
-	animation-duration: 2s;
+	animation-duration: 3s;
 	animation-iteration-count: infinite;
 	animation-timing-function: linear;
 	
@@ -200,7 +201,7 @@
 
 #q2{
 	animation-name: q2move;
-	animation-duration: 2s;
+	animation-duration: 3s;
 	animation-iteration-count: infinite;
 	animation-timing-function: linear;
 	
@@ -208,7 +209,7 @@
 
 #q3{
 	animation-name: q3move;
-	animation-duration: 2s;
+	animation-duration: 3s;
 	animation-iteration-count: infinite;
 	animation-timing-function: linear;
 	
@@ -216,7 +217,7 @@
 
 #q4{
 	animation-name: q4move;
-	animation-duration: 2s;
+	animation-duration: 3s;
 	animation-iteration-count: infinite;
 	animation-timing-function: linear;
 	
@@ -224,7 +225,7 @@
 
 #q5{
 	animation-name: q5move;
-	animation-duration: 2s;
+	animation-duration: 3s;
 	animation-iteration-count: infinite;
 	animation-timing-function: linear;
 	
@@ -232,7 +233,7 @@
 
 #q6{
 	animation-name: q6move;
-	animation-duration: 2s;
+	animation-duration: 3s;
 	animation-iteration-count: infinite;
 	animation-timing-function: linear;
 	
@@ -240,7 +241,7 @@
 
 #q7{
 	animation-name: q7move;
-	animation-duration: 2s;
+	animation-duration: 3s;
 	animation-iteration-count: infinite;
 	animation-timing-function: linear;
 	
@@ -248,7 +249,7 @@
 
 #q8{
 	animation-name: q8move;
-	animation-duration: 2s;
+	animation-duration: 3s;
 	animation-iteration-count: infinite;
 	animation-timing-function: linear;
 	
@@ -256,7 +257,7 @@
 
 #q9{
 	animation-name: q9move;
-	animation-duration: 2s;
+	animation-duration: 3s;
 	animation-iteration-count: infinite;
 	animation-timing-function: linear;
 	
