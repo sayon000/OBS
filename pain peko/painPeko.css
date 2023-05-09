@@ -1,29 +1,29 @@
 @keyframes pain{
 	0%  {transform:skewY(0deg) rotate(0deg) translate(0px, -200px) ;color:ORANGE;}
-	5%  {transform:skewY(10deg) skewX(0deg) translate(90px, -100px) ;color:white;}
-	10%  {transform: skewY(20deg) skewX(0deg) translate(180px, 0px) ;color:orange;}
-	15%  {transform: skewY(30deg) skewX(0deg)) translate(270px, 100px) ;color:white;}
-	20%  {transform: skewY(40deg) skewX(0deg) translate(360px, 200px) ;color:orange;}
+	5%  {transform:skewY(10deg) rotate(72deg) translate(90px, -100px) ;color:white;}
+	10%  {transform: skewY(20deg) rotate(144deg) translate(180px, 0px) ;color:orange;}
+	15%  {transform: skewY(30deg) rotate(216deg) translate(270px, 100px) ;color:white;}
+	20%  {transform: skewY(40deg) rotate(288deg) translate(360px, 200px) ;color:orange;}
 	 
-	25%  {transform: skewY(50deg) skewX(0deg) translate(450px, 200px) ;color:white;}
-	30%  {transform:  skewY(40deg) skewX(0deg) translate(240px, 100px) ;color:orange;}
-	35%  {transform:  skewY(30deg) skewX(0deg) translate(180px, 0px) ;color:white;}
-	40%  {transform:  skewY(20deg) skewX(0deg) translate(60px, -100px) ;color:orange;}
-	45%  {transform:  skewY(10deg) skewX(0deg) translate(0px, -200px) ;color:white;}
+	25%  {transform: skewY(50deg) rotate(0deg) translate(450px, 200px) ;color:white;}
+	30%  {transform:  skewY(40deg) rotate(72deg) translate(240px, 100px) ;color:orange;}
+	35%  {transform:  skewY(30deg) rotate(144deg) translate(180px, 0px) ;color:white;}
+	40%  {transform:  skewY(20deg) rotate(216deg) translate(60px, -100px) ;color:orange;}
+	45%  {transform:  skewY(10deg) rotate(288deg) translate(0px, -200px) ;color:white;}
 	
-	50%  {transform:  skewY(0deg) skewX(0deg) translate(0px, -200px) ;color:orange;}
-	55%  {transform:  skewY(-10deg) skewX(0deg) translate(-60px, -100px) ;color:white;}
-	60%  {transform:  skewY(-20deg) skewX(0deg) translate(-120px, 0px) ;color:orange;}
-	65%  {transform:  skewY(-30deg) skewX(0deg) translate(-180px, 100px) ;color:white;}
-	70%  {transform:  skewY(-40deg) skewX(0deg) translate(-240px, 200px) ;color:orange;}
+	50%  {transform:  skewY(0deg) rotate(0deg) translate(0px, -200px) ;color:orange;}
+	55%  {transform:  skewY(-10deg) rotate(90deg) translate(-60px, -100px) ;color:white;}
+	60%  {transform:  skewY(-20deg) rotate(180deg) translate(-120px, 0px) ;color:orange;}
+	65%  {transform:  skewY(-30deg) rotate(216deg) translate(-180px, 100px) ;color:white;}
+	70%  {transform:  skewY(-40deg) rotate(288deg) translate(-240px, 200px) ;color:orange;}
 	
-	75%  {transform:  skewY(-50deg) skewX(0deg) translate(-300px, 200px) rotateY(0deg);color:white;}
-	80%  {transform:  skewY(-40deg) skewX(0deg) translate(-240px, 100px) rotateY(0deg);color:orange;}
-	85%  {transform:  skewY(-30deg) skewX(0deg) translate(-180px, 0px) rotateY(0deg);color:white;}
-	90%  {transform:  skewY(-20deg) skewX(0deg) translate(-60px, -100px) rotateY(0deg);color:orange;}
-	95%  {transform:  skewY(-10deg) skewX(0deg) translate(0px, -200px) rotateY(0deg);color:white;}
+	75%  {transform:  skewY(-50deg) rotate(0deg) translate(-300px, 200px) rotateY(0deg);color:white;}
+	80%  {transform:  skewY(-40deg) rotate(90deg) translate(-240px, 100px) rotateY(0deg);color:orange;}
+	85%  {transform:  skewY(-30deg) rotate(180deg) translate(-180px, 0px) rotateY(0deg);color:white;}
+	90%  {transform:  skewY(-20deg) rotate(216deg) translate(-60px, -100px) rotateY(0deg);color:orange;}
+	95%  {transform:  skewY(-10deg) rotate(288deg) translate(0px, -200px) rotateY(0deg);color:white;}
 	
-	100% {transform:skewY(0deg) skewX(0deg) translate(0px, -200px) rotateY(0deg);color:ORANGE;}
+	100% {transform:skewY(0deg) rotate(0deg) translate(0px, -200px) rotateY(0deg);color:ORANGE;}
 }
 
 .painPeko{
