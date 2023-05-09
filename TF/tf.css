@@ -1,0 +1,19 @@
+@keyframes bigFuck{
+	 0%  {transform:translate(0px,-100px);color:white;}
+	25%  {transform:translate(1200px,-100px);color:red;}
+	50%  {transform:translate(1200px,650px);color:white;}
+	75%  {transform:translate(0px,650px);color:red;}
+	100% {transform:translate(0px,-100px);color:white;}
+}
+
+.theFuck{
+	animation-name: bigFuck;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+	font-size: 100px;
+	font-family: "Comic Sans MS", "Comic Sans", cursive;
+	animation-timing-function: linear;
+	color:white;
+	outline:black;
+	overflow:active;
+}

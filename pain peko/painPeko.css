@@ -1,0 +1,54 @@
+@keyframes pain{
+	0%  {transform:skewY(10deg) skewX(0deg) translate(0px, 0px) rotateY(0deg);color:ORANGE;}
+	5%  {transform:skewY(15deg) skewX(0deg) translate(75px, 100px) rotateY(0deg);color:white;}
+	10%  {transform: skewY(20deg) skewX(0deg) translate(150px, 200px) rotateY(0deg);color:white;}
+	15%  {transform: skewY(25deg) skewX(0deg) translate(225px, 300px) rotateY(0deg);color:white;}
+	20%  {transform: skewY(30deg) skewX(0deg) translate(300px, 400px) rotateY(0deg);color:white;}
+	 
+	25%  {transform: skewY(35deg) skewX(0deg) translate(300px, 400px) rotateY(0deg);color:white;}
+	30%  {transform:  skewY(40deg) skewX(0deg) translate(225px, 300px) rotateY(0deg);color:white;}
+	35%  {transform:  skewY(45deg) skewX(0deg) translate(150px, 200px) rotateY(0deg);color:white;}
+	40%  {transform:  skewY(40deg) skewX(0deg) translate(75px, 100px) rotateY(0deg);color:white;}
+	45%  {transform:  skewY(35deg) skewX(0deg) translate(0px, 0px) rotateY(0deg);color:orange;}
+	
+	50%  {transform:  skewY(30deg) skewX(0deg) translate(150px, 200px) rotateY(0deg);color:orange;}
+	55%  {transform:  skewY(25deg) skewX(0deg) translate(100px, 150px) rotateY(0deg);color:orange;}
+	60%  {transform:  skewY(20deg) skewX(0deg) translate(50px, 100px) rotateY(0deg);color:orange;}
+	65%  {transform:  skewY(15deg) skewX(0deg) translate(0px, 50px) rotateY(0deg);color:orange;}
+	70%  {transform:  skewY(10deg) skewX(0deg) translate(-50px, 0px) rotateY(0deg);color:orange;}
+	
+	75%  {transform:  skewY(10deg) skewX(0deg) translate(-50px, 0px) rotateY(0deg);color:orange;}
+	80%  {transform:  skewY(10deg) skewX(0deg) translate(-50px, 0px) rotateY(0deg);color:orange;}
+	85%  {transform:  skewY(10deg) skewX(0deg) translate(-50px, 0px) rotateY(0deg);color:orange;}
+	90%  {transform:  skewY(10deg) skewX(0deg) translate(-50px, 0px) rotateY(0deg);color:orange;}
+	95%  {transform:  skewY(10deg) skewX(0deg) translate(-50px, 0px) rotateY(0deg);color:orange;}
+	
+	100% {transform:skewY(10deg) skewX(0deg) translate(-50px, 0px) rotateY(0deg);color:ORANGE;}
+}
+
+.painPeko{
+	animation-name: pain;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+	font-size: 200px;
+	font-family: "Comic Sans MS", "Comic Sans", cursive;
+	animation-timing-function: linear;
+	color:white;
+	outline:black;
+	overflow:active;
+	text-align:center;
+}
+
+body {
+  background-color: #333;
+  font-family: 'Luckiest Guy', cursive;
+  font-size: 35px;
+}
+
+path {
+  fill: transparent;
+}
+
+text {
+  fill: #FF9800;
+}

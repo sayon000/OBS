@@ -1,0 +1,26 @@
+@keyframes poopy{
+	 0% { transform:rotate(0deg) scale(1,1);color:red; }
+	10% { transform:rotate(36deg) scale(2,2);color:orange; }
+	20% { transform:rotate(72deg)scale(3,3);color:yellow; }
+	30% { transform:rotate(108deg) scale(2,2);color:yellowgreen; }
+	40% { transform:rotate(144deg) scale(1,1);color:green; }
+	50% { transform:rotate(180deg) scale(0.75,0.75);color:blue; }
+	60% { transform:rotate(216deg)scale(0.5,0.5);color:indigo; }
+	70% { transform:rotate(252deg) scale(0.25,0.25); }
+	80% { transform:rotate(288deg)scale(0.5,0.5); }
+	90% { transform:rotate(324deg) scale(0.75,0.75); }
+	100% { transform:rotate(360deg) scale(1,1); }
+}
+
+.poop{
+	animation-name: poopy;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+	font-size: 100px;
+	font-family: "Comic Sans MS", "Comic Sans", cursive;
+	animation-timing-function: linear;
+	color:white;
+	outline:black;
+	overflow:active;
+	text-align:center;
+}

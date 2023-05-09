@@ -1,0 +1,23 @@
+@keyframes rainbowText{
+	0%{color:black;}
+	10%{color:red;}
+	20%{color:orange;}
+	30%{color:yellow;}
+	40%{color:yellowgreen;}
+	50%{color:green;}
+	60%{color:blue;}
+	70%{color:indigo;}
+	80%{color:blueviolet;}
+	90%{color:violet;}
+	100%{color:black;}
+}
+
+.rainbowBitch{
+	animation-name: rainbowText;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+	font-size: 100px;
+	font-family: "Comic Sans MS", "Comic Sans", cursive;
+	text-align: center;
+	animation-timing-function: linear;
+}
