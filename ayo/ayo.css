@@ -40,6 +40,20 @@
 	100% { transform:translate(-400px, -475px) scale(1,1); }
 }
 
+@keyframes q1move{
+	 0% { transform:translate(-300px, -710px) scale(1,1);color:red; }
+	/*10% { transform:translate(200px, 100px) scale(2,2);color:orange; }
+	20% { transform:translate(300px, 100px)scale(3,3);color:yellow; }
+	30% { transform:translate(400px, 100px) scale(2,2);color:yellowgreen; }
+	40% { transform:translate(500px, 100px) scale(1,1);color:green; }
+	50% { transform:translate(400px, 100px) scale(0.75,0.75);color:blue; }
+	60% { transform:translate(300px, 100px)scale(0.5,0.5);color:indigo; }
+	70% { transform:translate(200px, 100px) scale(0.25,0.25); }
+	80% { transform:translate(100px, 100px)scale(0.5,0.5); }
+	90% { transform:translate(0px, 100px) scale(0.75,0.75); } */
+	100% { transform:translate(-300px, -710px) scale(1,1); }
+}
+
 #a1{
 	animation-name: a1move;
 	animation-duration: 2s;
@@ -58,6 +72,14 @@
 
 #o1{
 	animation-name: o1move;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+	
+}
+
+#q1{
+	animation-name: q1move;
 	animation-duration: 2s;
 	animation-iteration-count: infinite;
 	animation-timing-function: linear;
