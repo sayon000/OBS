@@ -1,0 +1,29 @@
+@keyframes hap{
+	 0% { transform: translate(-570px, 570px) rotate(0deg);color:red; }
+	10% { transform: translate(-342px, 385px) rotate(-44deg);color:orange; }
+	20% { transform: translate(-114px, -200px) rotate(25deg);color:yellow; }
+	30% { transform: translate(114px, -200px) rotate(-30deg);color:yellowgreen;  }
+	40% { transform: translate(342px, 385px) rotate(83deg);color:green; font-family:"Monotype Corsiva";font-size:150px; }
+	50% { transform: translate(570px, 570px) rotate(-57deg);color:blue; }
+	60% { transform: translate(342px, 385px) rotate(98deg); font-family:"Monotype Corsiva"; font-size:150px;  }
+	70% { transform: translate(114px, -200px) rotate(-15deg);}
+	80% { transform: translate(-114px, -200px) rotate(8deg); }
+	90% { transform: translate(-342px, 385px) rotate(-16deg); }
+	100% { transform: translate(-570px, 570px) rotate(0deg); }
+}
+
+.happy{
+	animation-name: hap;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+	font-size: 100px;
+	font-family: "Comic Sans MS", "Comic Sans", cursive;
+	animation-timing-function: linear;
+	color:white;
+	outline:black;
+	overflow:active;
+	text-align:center;
+	margin:auto;
+	vertical-align;center;
+	padding-top:200px;
+}
