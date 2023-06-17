@@ -1,9 +1,9 @@
 @keyframes bigger{
-	 0%  {transform:scale(1,1);color:white;}
-	25%  {transform:scale(5,5);color:white;}
-	50%  {transform:scale(9,9);color:white;}
-	75% {transform:scale(5,5);color:white;}
-	100% {transform:scale(1,1);color:white;}
+	 0%  {transform:scale(1,1) rotate(0deg);color:white;}
+	25%  {transform:scale(5,5)rotate(60deg);color:white;}
+	50%  {transform:scale(9,9)rotate(-60deg);color:white;}
+	75% {transform:scale(5,5)rotate(60deg);color:white;}
+	100% {transform:scale(1,1) rotate(0deg);color:white;}
 }
 
 .biggerShit{

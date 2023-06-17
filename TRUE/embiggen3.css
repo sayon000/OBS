@@ -1,0 +1,64 @@
+@keyframes bigger{
+	
+}
+
+@keyframes t1move{
+	0% { transform:translate(-700px, -400px) scale(1,1); }
+	100% { transform:translate(-700px, -400px) scale(1,1); }
+}
+
+@keyframes r1move{
+	0% { transform:translate(-300px, -1600px) scale(1,1); }
+	100% { transform:translate(-300px, -1600px) scale(1,1); }
+}
+
+@keyframes u1move{
+	0% { transform:translate(100px, -2800px) scale(1,1); }
+	100% { transform:translate(100px, -2800px) scale(1,1); }
+}
+
+@keyframes e1move{
+	0% { transform:translate(500px, -4400px) scale(1,1); }
+	100% { transform:translate(500px, -4400px) scale(1,1); }
+}
+
+#t1{
+	animation-name: t1move;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+	
+}
+
+#r1{
+	animation-name: r1move;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+	
+}
+
+#u1{
+	animation-name: u1move;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+	
+}
+
+#e1{
+	animation-name: e1move;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+	
+}
+
+.big{
+	font-size: 500px;
+	font-family: "Comic Sans MS", "Comic Sans", cursive;
+	color:white;
+	outline:black;
+	overflow:active;
+	text-align:center;
+}
