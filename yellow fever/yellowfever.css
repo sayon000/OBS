@@ -1,0 +1,21 @@
+@keyframes bigger{
+	 0%  {transform:scale(1,1) rotate(0deg);color:#f7f19c;}
+	25%  {transform:scale(5,5)rotate(60deg);color:#fff466;}
+	50%  {transform:scale(9,9)rotate(-60deg);color:#fceb05;}
+	75% {transform:scale(5,5)rotate(60deg);color:#fff466;}
+	100% {transform:scale(1,1) rotate(0deg);color:#f7f19c;}
+}
+
+.biggerShit{
+	animation-name: bigger;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+	font-size: 100px;
+	font-family: "Comic Sans MS", "Comic Sans", cursive;
+	animation-timing-function: linear;
+	color:white;
+	outline:black;
+	text-align:center;
+	overflow:active;
+	align: center;
+}
